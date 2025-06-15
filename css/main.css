@@ -226,9 +226,14 @@ h6 {
   height: 112px;
   background-color: var(--bg-secondary);
   text-align: center;
-  padding-top: 24px;
 }
 /*our-team*/
+
+.icon-bcg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .item .content-our-team {
   padding: 32px 16px;
@@ -272,7 +277,6 @@ h6 {
 
 .social-media .list {
   display: flex;
-  justify-content: space-between;
 }
 
 .social-media .item {
@@ -290,12 +294,12 @@ h6 {
   height: 40px;
   display: inline-flex;
   border-radius: 50%;
-  box-shadow: none;
 }
 
 .icon {
   width: 24px;
   height: 24px;
+  fill: var(--white-color);
 }
 
 .social-media .item:hover,
@@ -307,6 +311,9 @@ h6 {
 .content {
   max-width: 265px;
   max-height: 104px;
+}
+
+.social-media .list {
   justify-content: space-between;
 }
 
